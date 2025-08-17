@@ -1,0 +1,128 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to bottom right, #fdf6f0, #ffe4c4);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #666;
+}
+.nav-link:hover {
+  color: #000;
+}
+.menu-btn {
+  display: none;
+  font-size: 24px;
+}
+
+/* Main Grid */
+.main-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+/* Posts */
+.posts h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.post-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+.post-card:hover {
+  transform: scale(1.02);
+}
+.post-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.post-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+.post-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Sidebar */
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+.sidebar ul {
+  list-style: none;
+}
+.sidebar li {
+  margin-bottom: 10px;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #6b21a8;
+}
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
+.branding {
+  color: #6b21a8;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 8px;
+}
