@@ -1,0 +1,107 @@
+h1 {
+  font-family: 'Pirata One', cursive; /* Pirate-style font for flair */
+  font-size: 3rem;                    /* Large and impactful */
+  color: #f8e71c;                     /* Straw Hat yellow */
+  text-shadow: 2px 2px 4px #000;     /* Adds depth and drama */
+  letter-spacing: 2px;               /* Slight spacing for emphasis */
+  text-align: center;                /* Centered for hero section */
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #ff4e50, #f9d423); /* Sunset gradient */
+  
+}
+.hero {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 60px 20px;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Featured Fruits Section */
+.characters {
+  padding: 40px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.characters h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffd700;
+  margin-bottom: 30px;
+}
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background-color: #1a1a1a;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card h3 {
+  color: #ffd700;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 0.95rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.eren {
+  width: 100%;              /* Makes image responsive */
+  max-width: 400px;         /* Limits size */
+  height: auto;             /* Maintains aspect ratio */
+  border-radius: 10px;      /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  display: block;
+  margin: 20px auto;        /* Centers image */
+  filter: brightness(1.1);  /* Slight brightness boost */
+}
+
+.mika {
+  width: 100%;              /* Makes image responsive */
+  max-width: 400px;         /* Limits size */
+  height: auto;             /* Maintains aspect ratio */
+  border-radius: 10px;      /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  display: block;
+  margin: 20px auto;        /* Centers image */
+  filter: brightness(1.1);  /* Slight brightness boost */
+}
+
+.armin {
+  width: 100%;              /* Makes image responsive */
+  max-width: 400px;         /* Limits size */
+  height: auto;             /* Maintains aspect ratio */
+  border-radius: 10px;      /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  display: block;
+  margin: 20px auto;        /* Centers image */
+  filter: brightness(1.1);  /* Slight brightness boost */
+}
